@@ -75,7 +75,7 @@ Exploratory data analysis was conducted using a combination of R and Python. Vis
 
 Targeted Analyses
 
-To study the relationships between individual-level risk variables, environmental factors, and mortality rates, as well as the potential impact of initiatives and policies, SQL queries were used to extract relevant subsets of data. This included filtering the data based on geographic region, demographic factors, and time periods of interest. \
+To study the relationships between individual-level risk variables, environmental factors, and mortality rates, as well as the potential impact of initiatives and policies, SQL queries were used to extract relevant subsets of data. This included filtering the data based on geographic region, demographic factors, and time periods of interest.\
 \
 The gathered data was then examined using R and Python, with statistical techniques and modeling approaches tailored to the research goals. This enabled a more in-depth investigation of the detailed interplay of individual, environmental, and policy-level factors and their impact on observed mortality trends.
 
@@ -169,7 +169,7 @@ Analyzing Spatial and Temporal Patterns: The dataset provides information at the
 
 \[1\] “Early Model-based Provisional Estimates of Drug Overdose, Suicide, and Transportation-related Deaths,” *Data.gov*, Mar. 30, 2022. https://catalog.data.gov/dataset/early-model-based-provisional-estimates-of-drug-overdose-suicide-and-transportation-relate-b35b2 (accessed Mar. 04, 2024).
 
-\[2\] R. S. Karpf and A. F. Williams, “Teenage drivers and motor vehicle deaths,” Accident Analysis &amp; Prevention, vol. 15, no. 1. Elsevier BV, pp. 55–63, Feb. 1983. doi: 10.1016/0001-4575(83)90007-6.
+\[2\] R. S. Karpf and A. F. Williams, “Teenage drivers and motor vehicle deaths,” Accident Analysis & Prevention, vol. 15, no. 1. Elsevier BV, pp. 55–63, Feb. 1983. doi: 10.1016/0001-4575(83)90007-6.
 
 \[3\] J. Friedman, M. Godvin, C. L. Shover, J. P. Gone, H. Hansen, and D. L. Schriger, “Trends in Drug Overdose Deaths Among US Adolescents, January 2010 to June 2021,” JAMA, vol. 327, no. 14. American Medical Association (AMA), p. 1398, Apr. 12, 2022. doi: 10.1001/jama.2022.2847.
 
