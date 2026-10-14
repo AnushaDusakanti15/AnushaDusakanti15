@@ -222,5 +222,96 @@
     "title": "ANUSHA DUSAKANTI",
     "section": "About Me",
     "text": "About Me\nI am a data and technology professional with a Master’s degree in Data Analytics Engineering from George Mason University and a background in computer science, cloud development, and business analytics.\nCurrently, I work as a Business Analyst at Saayam for All, where I contribute to business processes, data-driven initiatives, reporting, and cross-functional collaboration. Previously, I worked at Virtusa as an Associate Engineer, gaining hands-on experience with AWS cloud services, application development, APIs, and database technologies. I also served as a Graduate Teaching Assistant at George Mason University, supporting courses related to big data analytics, healthcare data, and health information technology.\nMy technical skill set includes Python, SQL, R, AWS, PostgreSQL, Tableau, Power BI, and Excel. I enjoy transforming complex data into meaningful insights, building analytical solutions, and using technology to solve real-world problems.\nI am particularly interested in opportunities across data analytics, business intelligence, data engineering, and business analysis, where I can combine technical expertise with analytical thinking to support better business decisions.\n\nMy Projects\n1. Breast Cancer Detection\nTo learn more about my breast cancer detection project and explore how I applied machine learning techniques to cancer classification, click here.\n2. Bridge Maintenance Prioritization\nTo understand the trends in drug overdose, suicide, and transportation-related deaths in the United States during 2016 to 2021, click here.\n3. Japan Unemployment Visualization\nTo explore unemployment trends in Japan through data analysis and visualization, click here."
+  },
+  {
+    "objectID": "hospital.html",
+    "href": "hospital.html",
+    "title": "Predicting Hospital Readmission Risk in Diabetic Patients",
+    "section": "",
+    "text": "Hospital readmissions are a significant healthcare challenge, contributing to rising medical costs and affecting patient outcomes. In this collaborative academic project at George Mason University, we analyzed diabetic patient data to explore factors associated with hospital readmissions, identify patient groups, and investigate medication patterns.\nOur goal was to demonstrate how data analytics and machine learning can support a better understanding of readmission risk and healthcare utilization.\n\n\n\n\n\n\nNote\n\n\n\nMy contribution: I performed Exploratory Data Analysis (EDA), identifying patterns, trends, and relationships in the dataset to guide subsequent modeling and interpretation."
+  },
+  {
+    "objectID": "hospital.html#project-objectives",
+    "href": "hospital.html#project-objectives",
+    "title": "Predicting Hospital Readmission Risk in Diabetic Patients",
+    "section": "Project Objectives",
+    "text": "Project Objectives\nWe investigated three main research questions:\n\nCan we predict whether a diabetic patient will be readmitted within 30 days of discharge?\nCan we identify patient groups based on healthcare utilization and treatment patterns?\nWhat combinations of patient characteristics and medication patterns are associated with readmission?"
+  },
+  {
+    "objectID": "hospital.html#dataset",
+    "href": "hospital.html#dataset",
+    "title": "Predicting Hospital Readmission Risk in Diabetic Patients",
+    "section": "Dataset",
+    "text": "Dataset\nWe used the Diabetes 130-US Hospitals for Years 1999–2008 dataset from the UCI Machine Learning Repository.\n\n101,766 inpatient encounters\n130 U.S. hospitals\n10 years of historical data\nDemographic, diagnostic, medication, laboratory, and hospital utilization variables\n\nThe target variable represented three outcomes: readmission within 30 days, readmission after 30 days, and no readmission. For the classification task, early readmission was treated as the positive class."
+  },
+  {
+    "objectID": "hospital.html#data-cleaning-and-preprocessing",
+    "href": "hospital.html#data-cleaning-and-preprocessing",
+    "title": "Predicting Hospital Readmission Risk in Diabetic Patients",
+    "section": "Data Cleaning and Preprocessing",
+    "text": "Data Cleaning and Preprocessing\nThe dataset required careful preparation before analysis.\n\nConverted missing-value placeholders into proper missing values.\nRemoved variables with substantial missing data, including weight, payer code, and medical specialty.\nHandled invalid demographic records and missing values.\nEncoded categorical variables for machine learning.\nExamined numerical relationships using correlation analysis.\nUsed feature importance to reduce the number of predictors.\nApplied SMOTE to address class imbalance in the classification training data.\n\n\nCorrelation Analysis\nThe correlation matrix helped us understand relationships among numerical features and identify potential predictors for further investigation.\n\nFigure 1. Correlation matrix of numerical features."
+  },
+  {
+    "objectID": "hospital.html#exploratory-data-analysis",
+    "href": "hospital.html#exploratory-data-analysis",
+    "title": "Predicting Hospital Readmission Risk in Diabetic Patients",
+    "section": "Exploratory Data Analysis",
+    "text": "Exploratory Data Analysis\nEDA was a key part of my contribution. I examined the distribution of readmission outcomes, patient demographics, hospital utilization, and relationships among important variables.\n\nDistribution of Readmission Outcomes\nThe dataset contained substantially fewer early readmissions than non-readmissions, making class imbalance an important consideration for model development.\n\nFigure 2. Distribution of no readmission, readmission after 30 days, and readmission within 30 days.\n\n\nAge Distribution\nWe explored how hospital encounters were distributed across patient age groups. The dataset contained many encounters involving patients between 50 and 80 years of age.\n\nFigure 3. Distribution of diabetic patient encounters across age groups.\n\n\nReadmission by Admission Type\nWe compared readmission outcomes across admission types to investigate how patterns differed between emergency, elective, and other admission categories.\n\nFigure 4. Readmission outcomes across admission types.\nThese visualizations helped identify patterns that could inform subsequent modeling and healthcare analysis."
+  },
+  {
+    "objectID": "hospital.html#machine-learning-and-analytical-methods",
+    "href": "hospital.html#machine-learning-and-analytical-methods",
+    "title": "Predicting Hospital Readmission Risk in Diabetic Patients",
+    "section": "Machine Learning and Analytical Methods",
+    "text": "Machine Learning and Analytical Methods\n\n1. Random Forest Classification\nWe used a Random Forest classifier to investigate early readmission prediction. Since early readmissions represented a minority class, SMOTE was applied to help address the imbalance.\nImportant predictors identified during the analysis included:\n\nNumber of previous inpatient visits\nTime spent in the hospital\nNumber of medications\n\n\nConfusion Matrix\nThe confusion matrix illustrates the classification outcomes for the tuned Random Forest model, including correctly and incorrectly classified cases.\n\nFigure 5. Confusion matrix for the Random Forest classification model.\n\n\nROC Curve\nThe ROC curve evaluates how well the model distinguishes between early readmissions and other outcomes across different classification thresholds.\n\nFigure 6. ROC curve. The reported AUC of approximately 0.57 indicates limited discrimination.\nThe report contains differing accuracy figures in its abstract and results section. Therefore, these should be interpreted alongside the ROC result rather than presented as evidence of strong predictive performance.\n\n\n\n2. DBSCAN Clustering\nWe used DBSCAN (Density-Based Spatial Clustering of Applications with Noise) to investigate patient groupings based on healthcare utilization and related characteristics.\nThe workflow included feature standardization and Principal Component Analysis (PCA) to reduce dimensionality and visualize the resulting clusters.\n\nFigure 7. DBSCAN clustering visualization in PCA-reduced feature space.\nThe visualization illustrated distinct groupings in the reduced feature space. These groups offered a starting point for exploring differences in healthcare utilization patterns.\n\n\n3. Apriori Association Rule Mining\nWe applied the Apriori algorithm to identify recurring medication patterns associated with early readmission.\nThe analysis evaluated:\n\nSupport: How frequently a pattern occurred.\nConfidence: How frequently the outcome occurred when a pattern was present.\nLift: How strongly the observed association differed from what would be expected under independence.\n\nOne reported rule involved an increase in insulin and the use of diabetes medication, with a lift of 1.6, confidence of 0.68, and support of 0.07.\nThese findings represent associations in the dataset, not evidence that medication changes cause readmissions."
+  },
+  {
+    "objectID": "hospital.html#key-findings",
+    "href": "hospital.html#key-findings",
+    "title": "Predicting Hospital Readmission Risk in Diabetic Patients",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nPrevious inpatient visits, hospital length of stay, and medication counts were identified as important predictive features.\nEarly readmissions represented a minority of encounters, highlighting the importance of addressing class imbalance.\nEDA revealed patterns across age groups, admission types, and readmission outcomes.\nDBSCAN was used to explore patient groupings based on healthcare utilization.\nApriori association rules identified medication patterns associated with readmission.\nThe reported ROC AUC of approximately 0.57 highlighted the need for further model improvement."
+  },
+  {
+    "objectID": "hospital.html#technologies-used",
+    "href": "hospital.html#technologies-used",
+    "title": "Predicting Hospital Readmission Risk in Diabetic Patients",
+    "section": "Technologies Used",
+    "text": "Technologies Used\nProgramming and Analysis: Python, Pandas, NumPy\nMachine Learning: Scikit-learn, Random Forest, SMOTE, DBSCAN, PCA\nAssociation Rule Mining: Apriori, mlxtend\nVisualization: Matplotlib, Seaborn"
+  },
+  {
+    "objectID": "hospital.html#my-contribution",
+    "href": "hospital.html#my-contribution",
+    "title": "Predicting Hospital Readmission Risk in Diabetic Patients",
+    "section": "My Contribution",
+    "text": "My Contribution\nMy primary responsibility was Exploratory Data Analysis (EDA). I examined the dataset to identify key patterns, trends, distributions, and relationships relevant to hospital readmission. This analysis helped guide subsequent modeling and supported the interpretation of the results.\nThis was a collaborative academic project completed with Sai Praneet Reddy Chinthala, Bharath Vardhan Reddy Ravula, and Swapnaja Kulkarni at George Mason University."
+  },
+  {
+    "objectID": "hospital.html#conclusion",
+    "href": "hospital.html#conclusion",
+    "title": "Predicting Hospital Readmission Risk in Diabetic Patients",
+    "section": "Conclusion",
+    "text": "Conclusion\nThis project demonstrated how exploratory analysis, classification, clustering, and association rule mining can be combined to investigate diabetic patient readmissions.\nAlthough the classification model showed limited discrimination according to the reported ROC AUC, the project provided useful insights into data quality, class imbalance, healthcare utilization patterns, and the challenges of predicting early readmissions.\nThe work strengthened my experience in healthcare analytics, data visualization, feature analysis, and machine learning workflows."
+  },
+  {
+    "objectID": "hospital.html#project-report",
+    "href": "hospital.html#project-report",
+    "title": "Predicting Hospital Readmission Risk in Diabetic Patients",
+    "section": "Project Report",
+    "text": "Project Report\nFor a detailed explanation of the methodology, experiments, visualizations, and findings, refer to the full project report."
+  },
+  {
+    "objectID": "hospital.html#project-overview",
+    "href": "hospital.html#project-overview",
+    "title": "Predicting Hospital Readmission Risk in Diabetic Patients",
+    "section": "",
+    "text": "Hospital readmissions are a significant healthcare challenge, contributing to rising medical costs and affecting patient outcomes. In this collaborative academic project at George Mason University, we analyzed diabetic patient data to explore factors associated with hospital readmissions, identify patient groups, and investigate medication patterns.\nOur goal was to demonstrate how data analytics and machine learning can support a better understanding of readmission risk and healthcare utilization.\n\n\n\n\n\n\nNote\n\n\n\nMy contribution: I performed Exploratory Data Analysis (EDA), identifying patterns, trends, and relationships in the dataset to guide subsequent modeling and interpretation."
+  },
+  {
+    "objectID": "hospital.html#references",
+    "href": "hospital.html#references",
+    "title": "Predicting Hospital Readmission Risk in Diabetic Patients",
+    "section": "References",
+    "text": "References\n\nCDC, “National diabetes statistics report,” Centers for Disease Control and Prevention, 2024. https://www.cdc.gov/diabetes/php/data- research/index.html\nA. Singh, “Feature Engineering — A Machine Learning Approach to Predict Diabetic Patient Hospital Readmissions (contd..) — Part 9,” Medium, Jul. 06, 2019. https://medium.com/@akshay.43279/a- machine-learning-approach-to-predict-diabetic-patient-hospital- readmissions-contd-part-9-4f663f5bf15c (accessed May 12, 2025).\nM. Zeinalnezhad and S. Shishehchi, “An integrated data mining algorithms and meta-heuristic technique to predict the readmission risk of diabetic patients,” Healthcare Analytics, vol. 5, p. 100292, Jun. 2024, doi: https://doi.org/10.1016/j.health.2023.100292.\nShiva, S. Reddy, N. Sethi, and R Rajender, “A COMPREHENSIVE ANALYSIS OF MACHINE LEARNING TECHNIQUES FOR INCESSANT PREDICTION OF DIABETES MELLITUS,” Jan. 01, 2020. https://www.researchgate.net/publication/343523593_A_COMPREH ENSIVE_ANALYSIS_OF_MACHINE_LEARNING_TECHNIQUE S_FOR_INCESSANT_PREDICTION_OF_DIABETES_MELLITUS"
   }
 ]
