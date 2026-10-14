@@ -1,10 +1,10 @@
 ---
-title: "STAT515 FINAL PROJECT"
+title: "Breast Cancer Detection"
 format: html
 editor: visual
 ---
 
-#### **STAT 515 Final Project**
+#### Breast Cancer Detection
 
 Group Number: 2
 

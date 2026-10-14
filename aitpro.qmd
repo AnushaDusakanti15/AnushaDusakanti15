@@ -1,9 +1,7 @@
 ---
-title: "AIT580 FINAL PROJECT"
+title: "Early Model-based Provisional Estimates of Drug Overdose, Suicide, and Transportation-related Deaths"
 editor: visual
 ---
-
-**Early Model-based Provisional Estimates of Drug Overdose, Suicide, and Transportation-related Deaths**
 
 AIT-580-009
 

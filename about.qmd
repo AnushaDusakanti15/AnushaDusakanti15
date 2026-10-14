@@ -4,26 +4,54 @@ format: html
 editor: visual
 ---
 
--   I completed an internship with Virtusa Consulting Services Pvt Ltd for 4 months.
+### Business Analyst
 
--   I worked as an Associate Engineer at Virtusa Consulting Services Pvt Ltd for 1.6 years.
+Saayam for All · February 2026 – Present
 
-During this whole tenure at Virtusa, I was able to learn about AWS services and worked on a project and on a POC.
+Business Analysis \| Reporting \| Process Improvement
 
-1.  POC
+-   Support business analysis initiatives by translating business needs into requirements, workflows, and actionable tasks.
 
-    Period: October 2023 – December 2023
+-   Contribute to reporting and analytics initiatives, including KPI data and dashboard support using Python, SQL, and PostgreSQL.
 
-    Role: Developer
+-   Collaborate with cross-functional teams to document requirements, track deliverables, and support process improvements.
 
-    I worked on a POC, which requires extraction of data from the source database using SQL and converting existing Java code to python code and migrating that data into AWS cloud.
+-   Contribute to data quality and testing activities, including synthetic data preparation and validation for analytics dashboards.
 
-2.  BMO – Digital Core B2B – TIBCO BW to AWS
+### Graduate Teaching Assistant
 
-    Period: January 2023 – September 2023
+George Mason University · September 2024 – May 2025
 
-    Role: Developer
+Data Analytics \| Healthcare Data \| Technical Communication
 
-    Migrating TIBCO on-premises API from on-premises servers to AWS Cloud Environment. This migration requires understanding the business logic and creating the request and response structure of the API from the TIBCO Designer and understanding the design given by the AWS architect.
+-   Supported instruction for courses covering Big Data to Information, Healthcare Data Challenges, and Health Information Technology Fundamentals.
 
-Go back to [home](https://anushadusakanti15.github.io/).
+-   Assisted students with course concepts, assignments, and analytical problem-solving.
+
+-   Helped explain technical concepts and connect data analytics methods with healthcare and information technology applications.
+
+### Associate Engineer
+
+Virtusa · May 2022 – December 2023
+
+AWS Cloud \| Application Development \| Database Migration
+
+-   Developed and supported cloud-based solutions using AWS services, including Lambda, EC2, RDS, DynamoDB, API Gateway, and AWS CDK.
+
+-   Contributed to a proof of concept for migrating SQL databases to AWS, supporting cloud migration and application integration activities.
+
+-   Worked on a BMO Digital Core B2B project involving the migration of TIBCO BusinessWorks integrations to AWS-based services.
+
+-   Supported API and service integration testing using SOAP UI and collaborated on troubleshooting and technical validation.
+
+### Product Intern
+
+Virtusa · January 2022 – April 2022
+
+Cloud Computing \| AWS Fundamentals
+
+-   Completed technical training focused on AWS cloud computing, architecture, and core cloud services.
+
+-   Built foundational knowledge of cloud infrastructure, security, and scalable application design.
+
+## 

@@ -1,5 +1,5 @@
 ---
-title: "STAT515 MID PROJECT"
+title: "Unemployment Rate from 1968-2022 in Japan"
 format: html
 editor: visual
 ---
