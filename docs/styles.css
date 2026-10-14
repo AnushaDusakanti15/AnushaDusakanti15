@@ -1,15 +1,30 @@
 
-/* Yellow navbar inspired by the first Solar example */
+/* Match the Solar theme's yellow/gold navbar */
 .navbar {
-  background-color: #c49a00 !important;
+  background-color: #b58900 !important;
 }
 
+/* White text like the Bootstrap dark navbar */
 .navbar .navbar-brand,
 .navbar .nav-link {
   color: #ffffff !important;
 }
 
+/* Slightly softer text on hover */
 .navbar .nav-link:hover,
 .navbar .navbar-brand:hover {
-  color: #fff4c2 !important;
+  color: #fdf0bd !important;
+}
+
+/* Preserve readable dropdown styling */
+.navbar .dropdown-menu {
+  background-color: #ffffff;
+}
+
+.navbar .dropdown-item {
+  color: #333333;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #f5edcf;
 }
