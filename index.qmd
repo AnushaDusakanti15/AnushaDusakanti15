@@ -18,11 +18,15 @@ I am particularly interested in opportunities across data analytics, business in
 
 ### My Projects
 
-**1. Breast Cancer Detection**\
-To learn more about my breast cancer detection project and explore how I applied machine learning techniques to cancer classification, click [here](https://anushadusakanti15.github.io/AnushaDusakanti15/FinalReport.html).
+1.  **Diabetic Patient Readmission Prediction**
 
-**2. Bridge Maintenance Prioritization**\
-To understand the trends in drug overdose, suicide, and transportation-related deaths in the United States during 2016 to 2021, click [here.](https://anushadusakanti15.github.io/AnushaDusakanti15/aitpro.html)
+    To learn more about how I used machine learning techniques, including Random Forest, DBSCAN clustering, and Apriori association rule mining, to analyze hospital readmission risk and identify patterns in diabetic patient care, click [here.](https://anushadusakanti15.github.io/AnushaDusakanti15/hospital.html)
 
-**3. Japan Unemployment Visualization**\
-To explore unemployment trends in Japan through data analysis and visualization, click [here.](https://anushadusakanti15.github.io/AnushaDusakanti15/Redesign.html)
+2.  **Breast Cancer Detection**\
+    To learn more about my breast cancer detection project and explore how I applied machine learning techniques to cancer classification, click [here](https://anushadusakanti15.github.io/AnushaDusakanti15/FinalReport.html).
+
+3.  **Bridge Maintenance Prioritization**\
+    To understand the trends in drug overdose, suicide, and transportation-related deaths in the United States during 2016 to 2021, click [here.](https://anushadusakanti15.github.io/AnushaDusakanti15/aitpro.html)
+
+4.  **Japan Unemployment Visualization**\
+    To explore unemployment trends in Japan through data analysis and visualization, click [here.](https://anushadusakanti15.github.io/AnushaDusakanti15/Redesign.html)
