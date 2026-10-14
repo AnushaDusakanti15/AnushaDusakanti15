@@ -1,5 +1,6 @@
 ---
 title: "Early Model-based Provisional Estimates of Drug Overdose, Suicide, and Transportation-related Deaths"
+format: html
 editor: visual
 ---
 

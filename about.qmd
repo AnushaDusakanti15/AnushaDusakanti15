@@ -1,5 +1,5 @@
 ---
-title: "WORK EXPERIENCE"
+title: "Work Experience"
 format: html
 editor: visual
 ---
