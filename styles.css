@@ -1,1 +1,15 @@
-/* css styles */
+
+/* Yellow navbar inspired by the first Solar example */
+.navbar {
+  background-color: #c49a00 !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #fff4c2 !important;
+}
