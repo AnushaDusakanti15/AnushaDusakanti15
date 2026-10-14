@@ -3,10 +3,9 @@ project:
   output-dir: docs
 
 website: 
-  title: Welcome!
+  title: ANUSHA DUSAKANTI
   navbar: 
-    left: 
-      - index.qmd
+    left:
       - about.qmd
       - Redesign.qmd
       - FinalReport.qmd

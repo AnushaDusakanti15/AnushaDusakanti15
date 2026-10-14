@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-![](images/Confident Curly-Haired Professional Portrait.png){width="236"}
+![](images/Confident%20Curly-Haired%20Professional%20Portrait.png){width="236"}
 
 ## About Me
 
