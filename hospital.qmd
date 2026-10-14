@@ -10,10 +10,6 @@ Hospital readmissions are a significant healthcare challenge, contributing to ri
 
 Our goal was to demonstrate how data analytics and machine learning can support a better understanding of readmission risk and healthcare utilization.
 
-::: callout-note
-**My contribution:** I performed Exploratory Data Analysis (EDA), identifying patterns, trends, and relationships in the dataset to guide subsequent modeling and interpretation.
-:::
-
 ## Project Objectives
 
 We investigated three main research questions:
@@ -174,7 +170,7 @@ The work strengthened my experience in healthcare analytics, data visualization,
 
 ## References
 
-1. CDC, “National diabetes statistics report,” Centers for Disease Control and Prevention, 2024. https://www.cdc.gov/diabetes/php/data- research/index.html
-2. A. Singh, “Feature Engineering — A Machine Learning Approach to Predict Diabetic Patient Hospital Readmissions (contd..) — Part 9,” Medium, Jul. 06, 2019. https://medium.com/@akshay.43279/a- machine-learning-approach-to-predict-diabetic-patient-hospital- readmissions-contd-part-9-4f663f5bf15c (accessed May 12, 2025). 
-3. M. Zeinalnezhad and S. Shishehchi, “An integrated data mining algorithms and meta-heuristic technique to predict the readmission risk of diabetic patients,” Healthcare Analytics, vol. 5, p. 100292, Jun. 2024, doi: https://doi.org/10.1016/j.health.2023.100292. 
-4. Shiva, S. Reddy, N. Sethi, and R Rajender, “A COMPREHENSIVE ANALYSIS OF MACHINE LEARNING TECHNIQUES FOR INCESSANT PREDICTION OF DIABETES MELLITUS,” Jan. 01, 2020. https://www.researchgate.net/publication/343523593_A_COMPREH ENSIVE_ANALYSIS_OF_MACHINE_LEARNING_TECHNIQUE S_FOR_INCESSANT_PREDICTION_OF_DIABETES_MELLITUS
+1.  CDC, “National diabetes statistics report,” Centers for Disease Control and Prevention, 2024. https://www.cdc.gov/diabetes/php/data- research/index.html
+2.  A. Singh, “Feature Engineering — A Machine Learning Approach to Predict Diabetic Patient Hospital Readmissions (contd..) — Part 9,” Medium, Jul. 06, 2019. https://medium.com/@akshay.43279/a- machine-learning-approach-to-predict-diabetic-patient-hospital- readmissions-contd-part-9-4f663f5bf15c (accessed May 12, 2025).
+3.  M. Zeinalnezhad and S. Shishehchi, “An integrated data mining algorithms and meta-heuristic technique to predict the readmission risk of diabetic patients,” Healthcare Analytics, vol. 5, p. 100292, Jun. 2024, doi: https://doi.org/10.1016/j.health.2023.100292.
+4.  Shiva, S. Reddy, N. Sethi, and R Rajender, “A COMPREHENSIVE ANALYSIS OF MACHINE LEARNING TECHNIQUES FOR INCESSANT PREDICTION OF DIABETES MELLITUS,” Jan. 01, 2020. https://www.researchgate.net/publication/343523593_A_COMPREH ENSIVE_ANALYSIS_OF_MACHINE_LEARNING_TECHNIQUE S_FOR_INCESSANT_PREDICTION_OF_DIABETES_MELLITUS

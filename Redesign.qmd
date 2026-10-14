@@ -206,10 +206,10 @@ The video below includes Sumrah and I walking you through the designing process 
 
 #### **References:**
 
-Oecd. (n.d.). *LFS by sex and age - indicators*. Organisation for Economic Co-operation and Development. https://stats.oecd.org/Index.aspx?DataSetCode=LFS_SEXAGE_I_R#
+1.  Oecd. (n.d.). *LFS by sex and age - indicators*. Organisation for Economic Co-operation and Development. https://stats.oecd.org/Index.aspx?DataSetCode=LFS_SEXAGE_I_R#
 
-Oshio, T. (2020, September 5). *Lingering Impact of Starting Working Life During a Recession: Health Outcomes of Survivors of the “Employment Ice Age” (1993–2004) in Japan*. Journal of Epidemiology. https://doi.org/10.2188/jea.JE20190121
+2.  Oshio, T. (2020, September 5). *Lingering Impact of Starting Working Life During a Recession: Health Outcomes of Survivors of the “Employment Ice Age” (1993–2004) in Japan*. Journal of Epidemiology. https://doi.org/10.2188/jea.JE20190121
 
-*Unemployment rate in Japan*. Wikimedia Commons. (n.d.-a). https://commons.wikimedia.org/wiki/File:Unemployment_rate_in_Japan.svg
+3.  *Unemployment rate in Japan*. Wikimedia Commons. (n.d.-a). https://commons.wikimedia.org/wiki/File:Unemployment_rate_in_Japan.svg
 
-*World Development Indicators*. The World Bank. (n.d.). https://databank.worldbank.org/reports.aspx?source=2&series=NY.GDP.MKTP.KD.ZG&country=JPN#advancedDownloadOptions
+4.  *World Development Indicators*. The World Bank. (n.d.). https://databank.worldbank.org/reports.aspx?source=2&series=NY.GDP.MKTP.KD.ZG&country=JPN#advancedDownloadOptions
